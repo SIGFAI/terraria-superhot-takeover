@@ -1,0 +1,6 @@
+Clip moments (each seen in the preview screenshots):
+[x] 1. The world turns white-washed, red crystal gunmen appear, SUPERHOT title and TIME gauge on screen.
+[x] 2. Player stands still: gauge says TIME: FROZEN and enemy bullets hang in the air; player walks again and time flows.
+[x] 3. Katana slashes an incoming bullet back (DEFLECT!) and red men shatter into crystal shards.
+[x] 4. Blocks: a gray brick wall stands in the shooters' way; vanilla zombies turn red crystal too.
+[~] 5. Pistol shots shatter enemies (pistol is in hand and enemies shatter; the bullets themselves are small in stills).

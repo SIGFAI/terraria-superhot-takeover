@@ -1,0 +1,1 @@
+Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods and enable it in tModLoader's Manage Mods menu. Enter any world: it turns white, red crystal gunmen come for you, and time only runs while you move. Gunmen drop the Hot Katana and Hot Pistol.
