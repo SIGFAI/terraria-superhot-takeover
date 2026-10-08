@@ -1,0 +1,83 @@
+{
+  "id": "sigf/terraria-superhot-takeover",
+  "version": "1.0.0",
+  "name": "SUPERHOT Takeover",
+  "tagline": "Bring SUPERHOT into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "terraria",
+      "role": "host",
+      "engine": "Terraria 1.4.4 + tModLoader (C#, .NET 8)",
+      "apps": {
+        "steam": "1281930"
+      }
+    },
+    {
+      "game": "superhot",
+      "role": "guest",
+      "label": "SUPERHOT"
+    }
+  ],
+  "requires": [
+    {
+      "id": "tmodloader"
+    }
+  ],
+  "install": [
+    {
+      "game": "terraria",
+      "strategy": "game-dir-snapshot",
+      "files": [
+        {
+          "src": "terraria-superhot-takeover.zip",
+          "dst": "{docs}/My Games/Terraria/tModLoader/Mods",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "Sigf.tmod",
+              "sha256": "f097ba0024d1dcfa44934ae4162865a4e5b0e30dad97049d166275bfcf37f006"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/terraria-superhot-takeover/releases/download/v1.0.0/terraria-superhot-takeover.zip",
+          "sha256": "02dddfe2e45681bdfe53ff669b6d3c13d4208cccfb7a608b7f2223f587b77c0b",
+          "size": 100996
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "terraria",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "terraria-superhot-takeover.zip",
+      "url": "https://github.com/SIGFAI/terraria-superhot-takeover/releases/download/v1.0.0/terraria-superhot-takeover.zip",
+      "sha256": "02dddfe2e45681bdfe53ff669b6d3c13d4208cccfb7a608b7f2223f587b77c0b",
+      "size": 100996
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/terraria-superhot-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-08-af8a1298.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "terraria",
+    "status": "draft"
+  },
+  "built_at": "2026-10-08T09:19:24.711Z",
+  "notes": [
+    "Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods and enable it in tModLoader's Manage Mods menu. Enter any world: it turns white, red crystal gunmen come for you, and time only runs while you move. Gunmen drop the Hot Katana and Hot Pistol."
+  ]
+}
